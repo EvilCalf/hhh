@@ -1,0 +1,62 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MyDIP - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/MyDIP.res" /d "_DEBUG" /d "_AFXDLL" "D:\编程工具\图像处理\Visual C++数字图像处理典型算法及实现\图像缩放\源代码\MyDIP.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/MyDIP.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\编程工具\图像处理\Visual C++数字图像处理典型算法及实现\图像缩放\源代码\dibapi.cpp"
+"D:\编程工具\图像处理\Visual C++数字图像处理典型算法及实现\图像缩放\源代码\MainFrm.cpp"
+"D:\编程工具\图像处理\Visual C++数字图像处理典型算法及实现\图像缩放\源代码\mydib.cpp"
+"D:\编程工具\图像处理\Visual C++数字图像处理典型算法及实现\图像缩放\源代码\MyDIP.cpp"
+"D:\编程工具\图像处理\Visual C++数字图像处理典型算法及实现\图像缩放\源代码\MyDIPDoc.cpp"
+"D:\编程工具\图像处理\Visual C++数字图像处理典型算法及实现\图像缩放\源代码\MyDIPView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPC.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/MyDIP.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\编程工具\图像处理\Visual C++数字图像处理典型算法及实现\图像缩放\源代码\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPC.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPD.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/MyDIP.pdb" /debug /machine:I386 /out:"Debug/MyDIP.exe" /pdbtype:sept 
+".\Debug\dibapi.obj"
+".\Debug\MainFrm.obj"
+".\Debug\mydib.obj"
+".\Debug\MyDIP.obj"
+".\Debug\MyDIPDoc.obj"
+".\Debug\MyDIPView.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MyDIP.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPD.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+dibapi.cpp
+MainFrm.cpp
+mydib.cpp
+MyDIP.cpp
+MyDIPDoc.cpp
+MyDIPView.cpp
+D:\编程工具\图像处理\Visual C++数字图像处理典型算法及实现\图像缩放\源代码\MyDIPView.cpp(361) : warning C4305: '=' : truncation from 'const double' to 'float'
+D:\编程工具\图像处理\Visual C++数字图像处理典型算法及实现\图像缩放\源代码\MyDIPView.cpp(362) : warning C4305: '=' : truncation from 'const double' to 'float'
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+MyDIP.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
